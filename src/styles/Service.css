@@ -6,7 +6,7 @@
   padding: 20px 0;
 }
 
-.service-box img {
+.service-box .gatsby-img-rapper {
   width: 20%;
   margin-left: 40%;
 }
