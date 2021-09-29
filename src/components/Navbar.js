@@ -29,6 +29,12 @@ const Navbar = () => {
               data-scroll="about"
               onMouseEnter={e => onHover(e.target)}
               onMouseLeave={e => offHover(e.target)}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.getElementById("about").offsetTop - 100,
+                  behavior: "smooth",
+                })
+              }}
             >
               About
             </li>
@@ -36,14 +42,25 @@ const Navbar = () => {
               data-scroll="skills"
               onMouseEnter={e => onHover(e.target)}
               onMouseLeave={e => offHover(e.target)}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.getElementById("services").offsetTop - 100,
+                  behavior: "smooth",
+                })
+              }}
             >
-              {" "}
               Services
             </li>
             <li
               data-scroll="gallery"
               onMouseEnter={e => onHover(e.target)}
               onMouseLeave={e => offHover(e.target)}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.getElementById("gallery").offsetTop - 100,
+                  behavior: "smooth",
+                })
+              }}
             >
               Gallery
             </li>
@@ -51,6 +68,12 @@ const Navbar = () => {
               data-scroll="contact"
               onMouseEnter={e => onHover(e.target)}
               onMouseLeave={e => offHover(e.target)}
+              onClick={() => {
+                window.scrollTo({
+                  top: document.getElementById("contact").offsetTop - 100,
+                  behavior: "smooth",
+                })
+              }}
             >
               Contact us
             </li>

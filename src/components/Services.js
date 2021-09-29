@@ -23,7 +23,7 @@ const Services = () => {
   `)
   let i = -1
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="container">
         <h2>SERVICES</h2>
         <div className="holder-box">

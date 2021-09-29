@@ -21,7 +21,7 @@ const Projects = () => {
   `)
   let i = projects.length
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
       <div className="container">
         <h2>PROJECTS</h2>
         <div className="projects">
