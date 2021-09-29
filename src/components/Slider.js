@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "../styles/Slider.css"
 
@@ -14,7 +15,7 @@ const Slider = () => {
           </p>
         </div>
         <div className="image-box">
-          <img src="/images/slider_image_3.png" alt="Slider Image" />
+          <StaticImage src="../images/slider_image_3.png" alt="Slider Image" />
         </div>
       </div>
     </div>

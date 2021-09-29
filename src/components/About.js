@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "../styles/About.css"
 
@@ -8,7 +9,10 @@ const About = () => {
       <div className="container">
         <h2>ABOUT</h2>
         <div className="content">
-          <img src="/images/about.png" alt="About Image" />
+          <div className="img-holder">
+            {" "}
+            <StaticImage src="../images/about.png" alt="About Image" />
+          </div>
           <p>
             Hi. I'm NiMou, it's a pleasure to meet you. I'm a young man who
             loves to code and enjoys creating websites and templates. You can

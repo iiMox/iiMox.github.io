@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Convert PSD",
+        "description": "Convert any design file into a web page.",
+        "icon": "convert_psd"
+    },
+    {
+        "title": "Landing pages",
+        "description": "Create nice and beautiful landing pages.",
+        "icon": "landing_page"
+    },
+    {
+        "title": "Personal portfolio",
+        "description": "Build personel portfolios for better representation.",
+        "icon": "personal_portfolio"
+    },
+    {
+        "title": "Web application",
+        "description": "Build modern web apps using the latest technologies.",
+        "icon": "web_application"
+    }
+]

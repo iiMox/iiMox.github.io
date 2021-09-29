@@ -4,6 +4,10 @@ import { useEffect } from "react"
 import Navbar from "./Navbar"
 import Slider from "./Slider"
 import About from "./About"
+import Services from "./Services"
+import Projects from "./Projects"
+import Contact from "./Contact"
+import Footer from "./Footer"
 
 import "../styles/main.css"
 
@@ -21,6 +25,10 @@ const Layout = () => {
       <Navbar />
       <Slider />
       <About />
+      <Services />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }

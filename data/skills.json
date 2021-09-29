@@ -1,0 +1,27 @@
+[
+    {
+        "skill": "HTML",
+        "level": "90%",
+        "icon": "html5"
+    },
+    {
+        "skill": "CSS",
+        "level": "80%",
+        "icon": "css3-alt"
+    },
+    {
+        "skill": "JavaScript",
+        "level": "60%",
+        "icon": "js-square"
+    },
+    {
+        "skill": "React",
+        "level": "75%",
+        "icon": "react"
+    },
+    {
+        "skill": "Node.js",
+        "level": "55%",
+        "icon": "node-js"
+    }
+]
