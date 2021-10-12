@@ -60,3 +60,33 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+@media (max-width: 575px) {
+  .services .holder-box {
+    flex-direction: column;
+  }
+  .services .skills-box {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .services .skills-box::after {
+    height: 4px;
+    width: 50%;
+    top: 100%;
+    right: 25%;
+  }
+}
+/*
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+} ; */

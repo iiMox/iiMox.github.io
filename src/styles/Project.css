@@ -64,3 +64,44 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 575px) {
+  .img-overflow h5 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .img-overflow button {
+    padding: 3px 12px;
+
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .img-overflow h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .img-overflow button {
+    padding: 5px 18px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-overflow h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .img-overflow button {
+    padding: 5px 18px;
+
+    font-size: 10px;
+  }
+}
+
+/* @media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+} ; */

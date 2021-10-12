@@ -53,3 +53,47 @@
   background-image: linear-gradient(to right, #af4eff, #2e23bd);
   border-radius: 10px;
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .skill-box .skill-title {
+    width: 25%;
+  }
+
+  .skill-box .skill-title h5 {
+    font-size: 13px;
+  }
+
+  .skill-box .progress {
+    width: 65%;
+    height: 15px;
+  }
+
+  .skill-box .progress span {
+    height: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .skill-box .skill-title {
+    width: 20%;
+  }
+
+  .skill-box .skill-title h5 {
+    font-size: 15px;
+  }
+
+  .skill-box .progress {
+    width: 65%;
+    height: 17px;
+  }
+
+  .skill-box .progress span {
+    height: 17px;
+  }
+}
+
+/* @media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+} ; */
