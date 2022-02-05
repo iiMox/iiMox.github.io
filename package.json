@@ -24,13 +24,15 @@
     "express": "^4.17.1",
     "gatsby": "^3.11.1",
     "gatsby-plugin-image": "^1.13.0",
+    "gatsby-plugin-react-helmet": "^4.14.0",
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "multiparty": "^4.2.2",
     "nodemailer": "^6.6.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",

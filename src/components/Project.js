@@ -24,7 +24,7 @@ const Project = ({ title, link, imageURL }) => {
           <h5>{title}</h5>
           <button>
             <a href={link} target="_blank" rel="noreferrer">
-              LEARN MORE
+              To Website
             </a>
           </button>
         </div>
