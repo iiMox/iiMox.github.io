@@ -14,7 +14,7 @@ export default function Home() {
         }}
       >
         <meta charSet="utf-8" />
-        <title>Nassim YAICI</title>
+        <title>Nassim Yaici | Web Developer</title>
         <meta name="description" content="Nassim YAICI's website."></meta>
       </Helmet>
       <Layout></Layout>
