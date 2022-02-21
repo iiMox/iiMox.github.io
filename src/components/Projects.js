@@ -12,7 +12,7 @@ const Projects = () => {
     query MyQuery1 {
       allFile(
         filter: { sourceInstanceName: { eq: "projects" } }
-        sort: { fields: name, order: ASC }
+        sort: { fields: name, order: DESC }
       ) {
         nodes {
           name
@@ -23,14 +23,14 @@ const Projects = () => {
       }
     }
   `)
-  let i = 0
+  let i = projects.length
   return (
     <div className="gallery" id="gallery">
       <div className="container">
         <h2>PROJECTS</h2>
         <div className="projects">
           {projects.map(project => {
-            i++
+            i--
             return (
               <Project
                 title={project.title}
