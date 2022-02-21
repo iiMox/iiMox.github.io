@@ -23,14 +23,14 @@ const Projects = () => {
       }
     }
   `)
-  let i = projects.length
+  let i = 0
   return (
     <div className="gallery" id="gallery">
       <div className="container">
         <h2>PROJECTS</h2>
         <div className="projects">
           {projects.map(project => {
-            i--
+            i++
             return (
               <Project
                 title={project.title}
