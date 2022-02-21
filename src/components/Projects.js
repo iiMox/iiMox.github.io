@@ -10,8 +10,12 @@ import projects from "../../data/projects.json"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query MyQuery1 {
-      allFile(filter: { sourceInstanceName: { eq: "projects" } }) {
+      allFile(
+        filter: { sourceInstanceName: { eq: "projects" } }
+        sort: { fields: name, order: ASC }
+      ) {
         nodes {
+          name
           childImageSharp {
             gatsbyImageData
           }
